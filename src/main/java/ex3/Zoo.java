@@ -1,5 +1,9 @@
 package ex3;
 
+/**
+ *  zoo
+ *
+ */
 public class Zoo {
 
 	private String nom;
@@ -46,5 +50,77 @@ public class Zoo {
 	 */
 	public void setNom(String nom) {
 		this.nom = nom;
+	}
+
+	/**
+	 * get field
+	 *
+	 * @return savaneAfricaine
+	 */
+	public SavaneAfricaine getSavaneAfricaine() {
+		return this.savaneAfricaine;
+	}
+
+	/**
+	 * set field
+	 *
+	 * @param savaneAfricaine
+	 */
+	public void setSavaneAfricaine(SavaneAfricaine savaneAfricaine) {
+		this.savaneAfricaine = savaneAfricaine;
+	}
+
+	/**
+	 * get field
+	 *
+	 * @return zoneCarnivore
+	 */
+	public ZoneCarnivore getZoneCarnivore() {
+		return this.zoneCarnivore;
+	}
+
+	/**
+	 * set field
+	 *
+	 * @param zoneCarnivore
+	 */
+	public void setZoneCarnivore(ZoneCarnivore zoneCarnivore) {
+		this.zoneCarnivore = zoneCarnivore;
+	}
+
+	/**
+	 * get field
+	 *
+	 * @return fermeReptile
+	 */
+	public FermeReptile getFermeReptile() {
+		return this.fermeReptile;
+	}
+
+	/**
+	 * set field
+	 *
+	 * @param fermeReptile
+	 */
+	public void setFermeReptile(FermeReptile fermeReptile) {
+		this.fermeReptile = fermeReptile;
+	}
+
+	/**
+	 * get field
+	 *
+	 * @return aquarium
+	 */
+	public Aquarium getAquarium() {
+		return this.aquarium;
+	}
+
+	/**
+	 * set field
+	 *
+	 * @param aquarium
+	 */
+	public void setAquarium(Aquarium aquarium) {
+		this.aquarium = aquarium;
 	}
 }
